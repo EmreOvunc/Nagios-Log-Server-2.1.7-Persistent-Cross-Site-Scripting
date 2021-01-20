@@ -3,6 +3,8 @@ A stored cross-site scripting (XSS) in [Nagios Log Server 2.1.7](https://www.nag
 
 [Nagios Log Server 2.1.7](https://www.nagios.com/products/nagios-log-server/) and older versions are affected by these vulnerabilities.
 
+# CVE-2020-25385
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25385
 
 # PoC-1
 To exploit vulnerability, someone could use a POST request to '/nagioslogserver/configure/create_snapshot' by manipulating 'snapshot_name' parameter in the request body to impact users who open a maliciously crafted link or third-party web page.
